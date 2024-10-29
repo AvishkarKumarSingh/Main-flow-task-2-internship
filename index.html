@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Portal</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Welcome to Job Portal</h1>
+
+    <!-- Contact Form -->
+    <section id="contact-form">
+        <h2>Contact Us</h2>
+        <form id="form">
+            <label for="name">Name:</label>
+            <input type="text" id="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" required>
+            <label for="message">Message:</label>
+            <textarea id="message" required></textarea>
+            <button type="submit">Submit</button>
+            <p id="formMessage"></p>
+        </form>
+    </section>
+
+    <!-- Image Slideshow -->
+    <section id="slideshow">
+        <h2>Job Highlights</h2>
+        <img id="slideshow-image" src="https://media.istockphoto.com/id/1394701218/photo/job-search-concept-find-your-career-woman-looking-at-online-website-by-laptop-computer-people.jpg?s=612x612&w=0&k=20&c=V32cT3dAoI7plQSnV-i7YxP43YvaoyA0jLS4729gNWM=" alt="Slide 1">
+    </section>
+
+    <!-- Toggle Section -->
+    <section id="toggle-content">
+        <h2>Job Listings</h2>
+        <button id="toggle-button">Show/Hide Featured Jobs</button>
+        <div id="featured-jobs" style="display: none;">
+            <p>Featured Job 1</p>
+            <p>Featured Job 2</p>
+            <p>Featured Job 3</p>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
